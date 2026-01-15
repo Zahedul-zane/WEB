@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Noise Overlay -->
+    <div class="bg-noise"></div>
+
+    <nav>
+        <div class="logo">NEXUS.</div>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Split Hero Section -->
+    <section class="hero hidden">
+        <div class="hero-text">
+            <h1>Create.<br> Disrupt.<br> <span>Innovate.</span></h1>
+            <p>Crafting digital experiences that merge art with technology. Specialized in high-performance web applications and immersive interfaces.</p>
+            <a href="#work" class="btn-neon">Explore Work</a>
+        </div>
+        <div class="hero-img">
+            <img src="hero.png" alt="Abstract Digital Art">
+        </div>
+    </section>
+
+    <!-- Asymmetrical Projects Grid -->
+    <section id="work" class="hidden">
+        <div class="projects-header">
+            <h2>Selected Works</h2>
+            <p style="color: var(--text-secondary)">2024 - 2026</p>
+        </div>
+        
+        <div class="grid-asym">
+            <!-- Project 1 (Wide) -->
+            <div class="project-card p1">
+                <img src="p1.png" alt="Cyberpunk Dashboard">
+                <div class="project-info">
+                    <h3>Data Core v2</h3>
+                    <p style="color: var(--accent-neon)">Analytics Platform</p>
+                </div>
+            </div>
+
+            <!-- Project 2 (Tall/Narrow) -->
+            <div class="project-card p2">
+                <img src="p2.png" alt="Holographic Map">
+                <div class="project-info">
+                    <h3>Geo-Sync</h3>
+                    <p style="color: var(--accent-neon)">Mobile App</p>
+                </div>
+            </div>
+
+            <!-- Project 3 (Full Width) -->
+            <div class="project-card p3">
+                <img src="p3.png" alt="Glass Cube Render">
+                <div class="project-info">
+                    <h3>Lumina</h3>
+                    <p style="color: var(--accent-neon)">3D Interaction Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minimal Contact -->
+    <section id="contact" class="contact-section hidden">
+        <p style="color: var(--text-secondary); letter-spacing: 2px; text-transform: uppercase;">Next Step</p>
+        <h2>Let's build the<br>future together.</h2>
+        <a href="mailto:hello@example.com" class="btn-neon">Get in Touch</a>
+
+        <div class="social-links">
+            <a href="#">Github</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
